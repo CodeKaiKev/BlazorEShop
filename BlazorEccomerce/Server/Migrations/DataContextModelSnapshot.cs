@@ -46,20 +46,26 @@ namespace BlazorEccomerce.Server.Migrations
                         new
                         {
                             Id = 1,
-                            Name = "Console",
-                            Url = "console"
+                            Name = "Sony",
+                            Url = "sony"
                         },
                         new
                         {
                             Id = 2,
-                            Name = "Video Game",
-                            Url = "videogame"
+                            Name = "Nintendo",
+                            Url = "nintendo"
                         },
                         new
                         {
                             Id = 3,
-                            Name = "Accessories",
-                            Url = "accessories"
+                            Name = "Microsft",
+                            Url = "microsoft"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Name = "Other",
+                            Url = "other"
                         });
                 });
 
@@ -149,7 +155,7 @@ namespace BlazorEccomerce.Server.Migrations
                         new
                         {
                             Id = 5,
-                            CategoryId = 1,
+                            CategoryId = 4,
                             Description = "7' diagonal, Optically bonded IPS LCD for enhanced readability, 1280 x 800px (16:10 aspect ratio), 60Hz, 400 nits typical 64 GB eMMC (PCIe Gen 2 x1), 16 GB LPDDR5 on-board RAM (5500 MT/s quad 32-bit channels), microSD Expansion: UHS-I supports SD, SDXC and SDHC",
                             Developer = "Steam",
                             ImageUrl = "https://m.media-amazon.com/images/I/61ekQQCkRRL._AC_SL1500_.jpg",
@@ -160,7 +166,7 @@ namespace BlazorEccomerce.Server.Migrations
                         new
                         {
                             Id = 6,
-                            CategoryId = 1,
+                            CategoryId = 4,
                             Description = "PC gaming has never been this portable - the ASUS ROG Ally puts a Windows gaming machine in the palm of your hands. And it doesn't compromise on specs. It packs an impressive AMD Ryzen Z1 Extreme CPU with Radeon graphics. So it's got plenty of horsepower to run your favourites. They'll look amazing on the 7” Full HD touchscreen. And with refresh rate up to 120 Hz, they'll be gloriously smooth, too. To match the amazing visuals, there are Dolby Atmos speakers that'll draw you into the game. And with battery life up to 8 hours, you can have a proper gaming sesh wherever you are.",
                             Developer = "ASUS",
                             ImageUrl = "https://media.currys.biz/i/currysprod/10249544?$l-large$&fmt=auto",
@@ -171,7 +177,7 @@ namespace BlazorEccomerce.Server.Migrations
                         new
                         {
                             Id = 7,
-                            CategoryId = 1,
+                            CategoryId = 3,
                             Description = "Introducing the Xbox Series S, the smallest, sleekest Xbox console ever. Experience the speed and performance of a next-gen all-digital console at an accessible price point. Go all-digital and enjoy disc-free, next-gen gaming with the smallest Xbox console ever made.",
                             Developer = "Microsoft",
                             ImageUrl = "https://m.media-amazon.com/images/I/61mnlvScHxL._AC_SL1500_.jpg",
@@ -182,7 +188,7 @@ namespace BlazorEccomerce.Server.Migrations
                         new
                         {
                             Id = 8,
-                            CategoryId = 1,
+                            CategoryId = 3,
                             Description = "Introducing Xbox Series X, the fastest, most powerful Xbox ever. Play thousands of titles from four generations of consoles—all games look and play best on Xbox Series X.",
                             Developer = "Microsoft",
                             ImageUrl = "https://m.media-amazon.com/images/I/41NhM7MMj4L._AC_SL1080_.jpg",
@@ -193,7 +199,7 @@ namespace BlazorEccomerce.Server.Migrations
                         new
                         {
                             Id = 9,
-                            CategoryId = 1,
+                            CategoryId = 2,
                             Description = "Rediscover your favourite 80s videogames in HD! Each title for the Nintendo Classic Mini: Nintendo Entertainment System is displayed at a smooth 60Hz via the included HDMI cable and can be enjoyed in one of three visual modes!.",
                             Developer = "Nintendo",
                             ImageUrl = "https://m.media-amazon.com/images/I/71GIan4mDmL._AC_SL1500_.jpg",
@@ -204,7 +210,7 @@ namespace BlazorEccomerce.Server.Migrations
                         new
                         {
                             Id = 10,
-                            CategoryId = 1,
+                            CategoryId = 2,
                             Description = "The Nintendo Classic Mini: Super Nintendo Entertainment System has the same look and feel of the original system only smaller and comes pre-loaded with 21 games.Launched in Europe in 1992, the Super Nintendo introduced what many consider some of the greatest video games of all timeX.",
                             Developer = "Nintendo",
                             ImageUrl = "https://m.media-amazon.com/images/I/81SVwPdq3tL._AC_SL1500_.jpg",
@@ -215,7 +221,7 @@ namespace BlazorEccomerce.Server.Migrations
                         new
                         {
                             Id = 11,
-                            CategoryId = 1,
+                            CategoryId = 2,
                             Description = "The new system features a vibrant 7-inch OLED screen, a wide adjustable stand, a dock with a wired LAN port, 64 GB of internal storage, and enhanced audio.",
                             Developer = "Nintendo",
                             ImageUrl = "https://m.media-amazon.com/images/I/51K6gw94TRL._AC_SL1200_.jpg",

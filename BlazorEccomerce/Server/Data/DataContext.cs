@@ -14,20 +14,26 @@ namespace BlazorEccomerce.Server.Data
                 new Category
                 {
                     Id = 1,
-                    Name = "Console",
-                    Url = "console"
+                    Name = "Sony",
+                    Url = "sony"
                 },
                 new Category
                 {
                     Id = 2,
-                    Name = "Video Game",
-                    Url = "videogame"
+                    Name = "Nintendo",
+                    Url = "nintendo"
                 },
                 new Category
                 {
                     Id = 3,
-                    Name = "Accessories",
-                    Url = "accessories"
+                    Name = "Microsft",
+                    Url = "microsoft"
+                },
+                new Category
+                {
+                    Id = 4,
+                    Name = "Other",
+                    Url = "other"
                 }
             );
             modelBuilder.Entity<Product>().HasData(
@@ -84,7 +90,7 @@ namespace BlazorEccomerce.Server.Data
                     Price = 421.00M,
                     ReleaseYear = 2022,
                     Developer = "Steam",
-                    CategoryId = 1
+                    CategoryId = 4
                 },
                 new Product
                 {
@@ -95,7 +101,7 @@ namespace BlazorEccomerce.Server.Data
                     Price = 699.00M,
                     ReleaseYear = 2023,
                     Developer = "ASUS",
-                    CategoryId = 1
+                    CategoryId = 4
                 },
                 new Product
                 {
@@ -106,7 +112,7 @@ namespace BlazorEccomerce.Server.Data
                     Price = 249.99M,
                     ReleaseYear = 2020,
                     Developer = "Microsoft",
-                    CategoryId = 1
+                    CategoryId = 3
                 },
                 new Product
                 {
@@ -117,7 +123,7 @@ namespace BlazorEccomerce.Server.Data
                     Price = 469.23M,
                     ReleaseYear = 2020,
                     Developer = "Microsoft",
-                    CategoryId = 1
+                    CategoryId = 3
                 },
                 new Product
                 {
@@ -128,7 +134,7 @@ namespace BlazorEccomerce.Server.Data
                     Price = 199.96M,
                     ReleaseYear = 1985,
                     Developer = "Nintendo",
-                    CategoryId = 1
+                    CategoryId = 2
                 },
                 new Product
                 {
@@ -139,7 +145,7 @@ namespace BlazorEccomerce.Server.Data
                     Price = 268.39M,
                     ReleaseYear = 1992,
                     Developer = "Nintendo",
-                    CategoryId = 1
+                    CategoryId = 2
                 },
                 new Product
                 {
@@ -150,7 +156,7 @@ namespace BlazorEccomerce.Server.Data
                     Price = 289.00M,
                     ReleaseYear = 2021,
                     Developer = "Nintendo",
-                    CategoryId = 1
+                    CategoryId = 2
                 }
             );
         }

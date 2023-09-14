@@ -28,10 +28,13 @@
     </ul>
 }
 @code {
-    protected override async Task OnInitializedAsync()
+    protected override void OnInitialized()
     {
-        await ProductService.GetProducts();
+        ProductService.ProductsChanged += StateHasChanged;
     }
-
+    protected void Dispose()
+    {
+        ProductService.ProductsChanged -= StateHasChanged;
+    }
 }
 
