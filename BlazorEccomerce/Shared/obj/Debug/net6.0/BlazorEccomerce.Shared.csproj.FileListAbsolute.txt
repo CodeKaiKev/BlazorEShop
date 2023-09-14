@@ -1,0 +1,12 @@
+C:\Users\kevin.paulraj\Programming\Scripts\C#\BlazorEccomerce\BlazorEccomerce\Shared\bin\Debug\net6.0\BlazorEccomerce.Shared.deps.json
+C:\Users\kevin.paulraj\Programming\Scripts\C#\BlazorEccomerce\BlazorEccomerce\Shared\bin\Debug\net6.0\BlazorEccomerce.Shared.dll
+C:\Users\kevin.paulraj\Programming\Scripts\C#\BlazorEccomerce\BlazorEccomerce\Shared\bin\Debug\net6.0\BlazorEccomerce.Shared.pdb
+C:\Users\kevin.paulraj\Programming\Scripts\C#\BlazorEccomerce\BlazorEccomerce\Shared\obj\Debug\net6.0\BlazorEccomerce.Shared.csproj.AssemblyReference.cache
+C:\Users\kevin.paulraj\Programming\Scripts\C#\BlazorEccomerce\BlazorEccomerce\Shared\obj\Debug\net6.0\BlazorEccomerce.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kevin.paulraj\Programming\Scripts\C#\BlazorEccomerce\BlazorEccomerce\Shared\obj\Debug\net6.0\BlazorEccomerce.Shared.AssemblyInfoInputs.cache
+C:\Users\kevin.paulraj\Programming\Scripts\C#\BlazorEccomerce\BlazorEccomerce\Shared\obj\Debug\net6.0\BlazorEccomerce.Shared.AssemblyInfo.cs
+C:\Users\kevin.paulraj\Programming\Scripts\C#\BlazorEccomerce\BlazorEccomerce\Shared\obj\Debug\net6.0\BlazorEccomerce.Shared.csproj.CoreCompileInputs.cache
+C:\Users\kevin.paulraj\Programming\Scripts\C#\BlazorEccomerce\BlazorEccomerce\Shared\obj\Debug\net6.0\BlazorEccomerce.Shared.dll
+C:\Users\kevin.paulraj\Programming\Scripts\C#\BlazorEccomerce\BlazorEccomerce\Shared\obj\Debug\net6.0\refint\BlazorEccomerce.Shared.dll
+C:\Users\kevin.paulraj\Programming\Scripts\C#\BlazorEccomerce\BlazorEccomerce\Shared\obj\Debug\net6.0\BlazorEccomerce.Shared.pdb
+C:\Users\kevin.paulraj\Programming\Scripts\C#\BlazorEccomerce\BlazorEccomerce\Shared\obj\Debug\net6.0\ref\BlazorEccomerce.Shared.dll

@@ -1,0 +1,39 @@
+.media-img[b-rqux35iblt] {
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin-left: -25px;
+    transition: transform .2s;
+}
+
+    .media-img:hover[b-rqux35iblt] {
+        transform: scale(1.1);
+    }
+
+.media[b-rqux35iblt] {
+    display: flex;
+    align-items: flex-start;
+}
+
+.media-body[b-rqux35iblt] {
+    flex: 1;
+}
+
+.media-img-wrapper[b-rqux35iblt] {
+    width: 200px;
+    text-align: center;
+}
+
+
+
+@media (max-width: 1083.98px) {
+    .media[b-rqux35iblt] {
+        flex-direction: column
+    }
+
+    .media-img-wrapper[b-rqux35iblt] {
+        width: 100%;
+        height: auto;
+    }
+}

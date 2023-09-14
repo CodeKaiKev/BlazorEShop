@@ -1,0 +1,29 @@
+.media-img[b-lc4gg7q7pr] {
+    max-height: 500px;
+    max-width: 500px;
+    border-radius: 6px;
+    margin: 0 10px 10px 10px;
+    margin-left: -15px;
+}
+
+.media-img-wrapper[b-lc4gg7q7pr] {
+    max-width: 500px;
+    max-height: 500px;
+    text-align: center;
+}
+
+@media (max-width: 1023.98px) {
+
+    .media[b-lc4gg7q7pr] {
+        flex-direction: column
+    }
+
+    .media-img[b-lc4gg7q7pr] {
+        max-width: 300px;
+    }
+
+    .media-img-wrapper[b-lc4gg7q7pr] {
+        width: 100%;
+        height: auto;
+    }
+}
